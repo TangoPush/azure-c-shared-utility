@@ -5,8 +5,8 @@
 #include "azure_c_shared_utility/xlogging.h"
 
 
-#include "freertos/FreeRTOS.h"
-#include "freertos/semphr.h"
+#include "FreeRTOS.h"
+#include "semphr.h"
 
 LOCK_HANDLE Lock_Init(void)
 {
